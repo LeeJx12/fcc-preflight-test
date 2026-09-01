@@ -69,15 +69,15 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script>
-    const API='https://countapi.mileshilliard.com/api/v1/hit/';
-    const KEYS={view:'fcc_listing_preflight_20260830_view',free:'fcc_listing_preflight_20260830_free',paid:'fcc_listing_preflight_20260830_paid'};
+    const HIT='https://hitscounter.dev/api/hit';
+    const KEYS={view:'https://leejx12.github.io/fcc-preflight-test/?metric=view-v2',free:'https://leejx12.github.io/fcc-preflight-test/?metric=free-v2',paid:'https://leejx12.github.io/fcc-preflight-test/?metric=paid-v2'};
     const toast=document.getElementById('toast');
     const once=(name,fn)=>{try{if(localStorage.getItem(name))return;localStorage.setItem(name,'1');fn()}catch(e){fn()}};
-    const hit=(key)=>fetch(API+key,{cache:'no-store'}).catch(()=>{});
-    once('fcc_preflight_view_v1',()=>hit(KEYS.view));
+    const hit=(key)=>{const img=new Image();img.style.display='none';img.alt='';img.referrerPolicy='no-referrer';img.onload=img.onerror=()=>img.remove();img.src=HIT+'?url='+encodeURIComponent(key)+'&tz=Asia%2FSeoul&_='+Date.now();document.body.appendChild(img)};
+    once('fcc_preflight_view_v2',()=>hit(KEYS.view));
     document.querySelectorAll('[data-intent]').forEach(btn=>btn.addEventListener('click',()=>{
       const kind=btn.dataset.intent;
-      once('fcc_preflight_'+kind+'_v1',()=>hit(KEYS[kind]));
+      once('fcc_preflight_'+kind+'_v2',()=>hit(KEYS[kind]));
       toast.textContent=kind==='paid' ? 'Recorded: you would consider a $29 one-time full-catalog audit. No payment was taken.' : 'Recorded: you want the free 5-SKU preflight. No upload is requested in this smoke test.';
       toast.classList.add('show');
       clearTimeout(window.__toastTimer);
