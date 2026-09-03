@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://leejx12.github.io/fcc-preflight-test/sitemap.xml
