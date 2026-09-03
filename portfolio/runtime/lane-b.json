@@ -1,0 +1,15 @@
+{
+  "lane": "B",
+  "updated_at": "2026-09-03T19:35:00+09:00",
+  "candidate": "Amazon SDS Submission Preflight",
+  "stage": "LAUNCHED / VALIDATE LIVE",
+  "wedge": "supplier SDS PDF + Amazon listing details + Amazon Dangerous Goods acceptance rules => Amazon-specific SDS submission QA for chemical-based products, not full hazmat approval",
+  "last_material_result": "Live test remains unchanged before Day 3. Scope validation narrowed product to chemical-product SDS preflight and prepared routing warnings for battery/aerosol cases.",
+  "economics": "Free 1-SDS -> $15 full/multi-SDS paid intent; contribution unproven.",
+  "next_checkpoint": "2026-09-05 18:18 KST Day-3 safe CountAPI read; hard checkpoint 2026-09-09 18:18 KST or 100 valid views.",
+  "recommendation": "KEEP / LIVE TEST",
+  "founder_gate": null,
+  "exceptional_opportunity": false,
+  "unavoidable_blocker": null,
+  "alert_reason": null
+}
