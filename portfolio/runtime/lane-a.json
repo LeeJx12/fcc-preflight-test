@@ -1,0 +1,15 @@
+{
+  "lane": "A",
+  "updated_at": "2026-09-03T19:35:00+09:00",
+  "candidate": "Seoul Event Drive-or-Transit Pages",
+  "stage": "LAUNCHED / VALIDATE LIVE",
+  "wedge": "event identity/date/time + official traffic/parking restrictions + parking support + transit fallback => event-specific SEO pages answering 차 가져갈까, 대중교통 탈까?",
+  "last_material_result": "DDP + Seoripul two-page zero-spend SEO test launched. 2026-09-03 17:02 KST pre-check found no indexed result yet, only ~10h after launch; no failure classification before fixed checkpoint.",
+  "economics": "KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven.",
+  "next_checkpoint": "2026-09-06 07:10 KST indexing checkpoint, or earlier combined 50-view trigger.",
+  "recommendation": "KEEP / LIVE TEST",
+  "founder_gate": null,
+  "exceptional_opportunity": false,
+  "unavoidable_blocker": null,
+  "alert_reason": null
+}
