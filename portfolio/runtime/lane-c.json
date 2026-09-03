@@ -1,0 +1,15 @@
+{
+  "lane": "C",
+  "updated_at": "2026-09-03T19:35:00+09:00",
+  "candidate": "Korean SME Hire Subsidy Stack Preflight",
+  "stage": "VALIDATE",
+  "wedge": "company + planned hire facts entered before hiring => pre-hire subsidy timing/deadline/risk checker with likely amount, obvious conflict flags and official next actions",
+  "last_material_result": "Generic all-subsidy checker was disconfirmed by multiple free diagnosis funnels. Candidate retained only as transparent pre-hire deadline/action checker; 4/5 representative programs appear pre-screenable from user facts.",
+  "economics": "Free check -> paid action report or practitioner tool hypothesis; pricing/contribution unproven; KRW0 spend.",
+  "next_checkpoint": ">=5 high-intent SERP audit, >=5 independent timing-mistake/practitioner evidence, >=3 payroll/HR product audit; then KEEP/smoke-test gate, MUTATE or KILL.",
+  "recommendation": "KEEP / VALIDATE",
+  "founder_gate": null,
+  "exceptional_opportunity": false,
+  "unavoidable_blocker": null,
+  "alert_reason": null
+}
