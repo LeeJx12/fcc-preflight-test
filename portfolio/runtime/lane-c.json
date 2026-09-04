@@ -1,15 +1,15 @@
 {
   "lane": "C",
-  "updated_at": "2026-09-04T08:01:00+09:00",
+  "updated_at": "2026-09-04T09:37:24+09:00",
   "candidate": "Korean SME Hire Subsidy Stack Preflight",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "company + planned hire facts entered before hiring => pre-hire subsidy timing/deadline/risk checker with likely amount, obvious conflict flags and official next actions; not final legal eligibility or filing service",
-  "last_material_result": "Founder approved zero-spend smoke-test BUILD + LAUNCH. One static non-PII client-side page was created at https://leejx12.github.io/fcc-preflight-test/hire-subsidy/ with the frozen 7-input questionnaire, anonymous view/free-check/paid-report-intent counters, disclaimer, and no login/payment/contact collection. Sitemap was updated. Build commit 7e394b6269e6636dd8693ce96dab7eab574dac9a; sitemap commit 75fa9f1c57ef8ab1ba0c18ab644d59c2d6dbbc20.",
-  "economics": "KRW0 spend. Hypothesis: free 3-minute pre-hire deadline-risk check -> paid source-linked action report or practitioner tool. Pricing/contribution remain unvalidated; live smoke test now measures free-check completion and paid-report intent.",
-  "next_checkpoint": "Day 0 is 2026-09-04 ~08:01 KST. Use non-mutating CountAPI GET reads only for keys leejx12-hire-subsidy-view-v1, leejx12-hire-subsidy-free-v1, leejx12-hire-subsidy-paid-v1. Precommitted rule: >=50 targeted/high-intent visits + >=3 paid-report intents + paid/view >=3% => BUILD candidate; >=100 visits with 0 paid intent => KILL paid-report form; <50 visits by 2026-09-11 08:01 KST => distribution failure and exactly one materially different free-channel retest, not product failure. Before paid conversion claims, validate that any tracked traffic is actually targeted/high-intent.",
-  "recommendation": "KEEP / LIVE TEST — do not expand scope before threshold evidence",
+  "last_material_result": "Validated the first intended organic distribution/query surface, '청년일자리도약장려금 채용 전 신청'. Fresh SERP results are active and commercially relevant, but crowded with 2026 guides plus at least one program-specific calculator. Multiple current pages explicitly emphasize the pre-hire/within-3-month participation timing, confirming query-message fit; however the calculator found only computes the youth incentive and explicitly leaves key eligibility inputs unchecked. This means the live page's multi-program pre-hire deadline/risk wedge remains differentiated, but generic SEO ranking on this head query is likely difficult. Do not change the page yet; preserve this as distribution evidence and seek narrower high-intent surfaces before the Day-7 distribution checkpoint.",
+  "economics": "KRW0 spend. Hypothesis: free 3-minute pre-hire deadline-risk check -> paid source-linked action report or practitioner tool. Pricing/contribution remain unvalidated; live smoke test measures free-check completion and paid-report intent.",
+  "next_checkpoint": "Live window through 2026-09-11 08:01 KST or 100 targeted/high-intent visits. Do not poll counters hourly. Before Day 7, validate narrower free/high-intent distribution surfaces rather than competing only on the crowded head query. Precommitted rule: >=50 targeted/high-intent visits + >=3 paid-report intents + paid/view >=3% => BUILD candidate; >=100 targeted visits with 0 paid intent => KILL paid-report form; <50 targeted visits by Day 7 => distribution failure and exactly one materially different free-channel retest.",
+  "recommendation": "KEEP / LIVE TEST — query-message fit confirmed, but head-query SEO is crowded; validate narrower high-intent distribution without changing product scope",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
-  "alert_reason": "Founder approval was executed; no further Founder action required now."
+  "alert_reason": "Routine distribution validation only; no Founder gate, exceptional opportunity, or blocker."
 }
