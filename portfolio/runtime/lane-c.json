@@ -1,15 +1,15 @@
 {
   "lane": "C",
-  "updated_at": "2026-09-05T02:49:20+09:00",
+  "updated_at": "2026-09-05T06:17:32+09:00",
   "candidate": "Korean SME Hire Subsidy Stack Preflight",
   "stage": "LAUNCHED / VALIDATE LIVE",
-  "wedge": "company + planned hire facts around hiring => pre-hire/post-hire subsidy timing/deadline/risk checker with likely amount, obvious conflict flags and official next actions; not final legal eligibility or filing service",
-  "last_material_result": "Bounded source-accuracy check found an important 2026 nuance in the primary acquisition query: current 2026 Youth Job Leap notices/guides state that employers may generally apply before hiring but can also include already-hired eligible youth when participation is filed within 3 months of hire. Search results simultaneously contain stale/incorrect pages claiming pre-hire approval is mandatory. This strengthens the information-friction thesis but means the smoke page must not imply that hiring itself irreversibly loses the program. Within the already-approved smoke-test scope, page copy/result logic was corrected to say programs have different participation/registration/claim timing and that some remain recoverable after hire within defined windows. No new scope, PII, spend or legal claim was added. Live-test thresholds remain unchanged.",
-  "economics": "KRW0 spend. Hypothesis unchanged: free 3-minute timing/deadline-risk check -> paid source-linked action report or practitioner tool. Pricing/contribution remain unvalidated; live smoke test measures free-check completion and paid-report intent.",
-  "next_checkpoint": "Do not re-check search indexing before ~2026-09-07 08:01 KST unless an external signal warrants it. At/after Day 3, perform one search-discoverability check for the live URL and primary high-intent query. Hard window remains through 2026-09-11 08:01 KST or 100 targeted/high-intent visits. >=50 targeted views + >=3 paid intents + paid/view >=3% => BUILD candidate; >=100 targeted views with 0 paid intent => KILL paid-report form; <50 targeted views by Day 7 => distribution failure and exactly one materially different free-channel retest.",
-  "recommendation": "KEEP / LIVE TEST — corrected timing claim, otherwise hold page/test constant; next bounded work should use a distinct non-contaminating distribution surface rather than metric/index polling",
+  "wedge": "company + planned hire facts around hiring => pre-hire/post-hire subsidy timing/deadline/risk checker with likely amount, conflict flags and official next actions; not final legal eligibility or filing service",
+  "last_material_result": "Fresh organic-search validation found materially conflicting 2026 answers for the primary youth-employment-subsidy timing query. Some recent pages still say application must happen before hiring, while current 2026 sources state employers can generally participate before hiring or within 3 months after an eligible hire. Current Work24 policy and operating-institution pages are crawlable and include the April 2026 amended guidance. This confirms an SEO/action gap around application timing and stale guidance. The live page already uses corrected non-absolute wording, so no page change was made.",
+  "economics": "KRW0 spend. Hypothesis unchanged: free 3-minute timing/deadline-risk check -> paid source-linked action report or practitioner tool. Pricing and contribution remain unvalidated.",
+  "next_checkpoint": "Hold the page/test constant. At or after 2026-09-07 08:01 KST perform one search-discoverability check for the live URL and primary high-intent query. Hard window remains through 2026-09-11 08:01 KST or 100 targeted visits. >=50 targeted views + >=3 paid intents + paid/view >=3% => BUILD candidate; >=100 targeted views with 0 paid intent => KILL paid-report form; <50 targeted views by Day 7 => distribution failure and one materially different free-channel retest.",
+  "recommendation": "KEEP / LIVE TEST — organic timing-query surface validated; hold test constant until Day-3 discoverability check",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
-  "alert_reason": "Routine evidence-driven accuracy correction within approved smoke-test scope; no Founder gate, exceptional opportunity or blocker."
+  "alert_reason": "Routine distribution validation; no Founder gate, exceptional opportunity or blocker."
 }
