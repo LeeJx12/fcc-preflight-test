@@ -1,9 +1,9 @@
 {
-  "last_briefing_at": "2026-09-05T08:58:17+09:00",
+  "last_briefing_at": "2026-09-05T20:58:50+09:00",
   "last_seen": {
-    "lane_a_updated_at": "2026-09-05T03:40:00+09:00",
-    "lane_b_updated_at": "2026-09-05T07:14:53+09:00",
-    "lane_c_updated_at": "2026-09-05T06:17:32+09:00"
+    "lane_a_updated_at": "2026-09-05T20:56:00+09:00",
+    "lane_b_updated_at": "2026-09-05T20:07:53+09:00",
+    "lane_c_updated_at": "2026-09-05T20:28:00+09:00"
   },
   "note": "Daily briefing reader compares lane runtime files and reports only material changes and Founder decisions."
 }
