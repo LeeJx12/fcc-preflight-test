@@ -1,15 +1,22 @@
 {
   "lane": "A",
-  "updated_at": "2026-09-05T03:40:00+09:00",
+  "updated_at": "2026-09-05T12:53:00+09:00",
   "candidate": "Seoul Event Drive-or-Transit Pages",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "event identity/date/time + official traffic/parking restrictions + parking support + transit fallback => event-specific SEO pages answering 차 가져갈까, 대중교통 탈까?",
-  "last_material_result": "Pre-checkpoint source-freshness audit reduced stale-event risk without contaminating the live test. Seoul Metropolitan Government published a fresh 2026-09-03 official notice confirming Seoul Light DDP 2026 Fall is actively running Sep 3-13, daily 19:30-22:30 at DDP; a separate September cultural-events page also lists Seoul Light DDP. Seocho's official 2026 festival page is live and shows Sep 20 program activity. No cancellation or contradictory event-status signal surfaced. Existing technical-discovery weakness remains: root index has no internal links to the two event URLs and event pages lack self-canonical; sitemap/robots are valid. No live mutation made before the fixed indexing checkpoint.",
-  "economics": "KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven.",
-  "next_checkpoint": "2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, classify indexing/distribution failure and apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub for the two existing event pages; do not add new events. Hard trigger remains combined 50 views.",
-  "recommendation": "KEEP / LIVE TEST — event freshness confirmed; preserve drive-vs-transit wedge and wait for fixed indexing checkpoint before technical mutation",
+  "last_material_result": "Active live test unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Shadow discovery found a timely but narrow consumer utility gap: Seoul Facilities Corporation announced on 2026-09-04 that 61 public parking lots will be free Sep 24-27 for Chuseok, while Seoul already provides citywide real-time public-parking availability and static blogs replicate holiday lists. Generic parking or static free-parking lists are therefore weak; the differentiated shadow wedge is destination-first Chuseok free-parking routing that joins the official 61-lot temporary-free list with nearest-destination lookup and live vacancy/fallback where available. No build or launch performed.",
+  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Shadow: KRW0 validation; seasonal traffic/ad or cross-promotion potential, but short Sep 24-27 utility window means standalone revenue ceiling may be low unless reusable for recurring holiday/open-parking datasets.",
+  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow: next free validation should test high-intent search/distribution gap for destination-first 추석 무료주차/명절 무료주차 queries and whether the official 61-lot list can be deterministically joined to live vacancy data without fragile scraping.",
+  "recommendation": "KEEP / LIVE TEST. During wait windows continue shadow validation; do not launch the Chuseok utility unless search/distribution gap and reusable-data economics survive disconfirmation.",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
-  "alert_reason": null
+  "alert_reason": null,
+  "shadow_best": {
+    "candidate": "Seoul Chuseok Free-Parking Route Finder",
+    "wedge": "official temporary-free parking list + destination search + nearest free lots + live vacancy/fallback => 어디 가는데 추석에 어디 세우면 무료이고 지금 자리 있나?",
+    "stage": "ASSESS",
+    "why_promising": "Fresh 2026 Chuseok trigger: 61 Seoul public lots are free Sep 24-27. Existing official products solve real-time parking generally and blogs copy static holiday lists, leaving a possible action-layer gap that combines temporary-free eligibility with destination routing and live fallback. Technically adjacent to reusable public parking/event primitives and zero-spend to validate.",
+    "next_validation": "Disconfirm via high-intent SERPs and official-data join feasibility; kill if destination queries are already satisfied or live vacancy cannot be joined reliably, and penalize heavily if the wedge cannot generalize beyond the four-day holiday window."
+  }
 }
