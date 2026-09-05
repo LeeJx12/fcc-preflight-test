@@ -1,16 +1,22 @@
 {
   "lane": "A",
-  "updated_at": "2026-09-05T14:53:43+09:00",
+  "updated_at": "2026-09-05T15:55:11+09:00",
   "candidate": "Seoul Event Drive-or-Transit Pages",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "event identity/date/time + official traffic/parking restrictions + parking support + transit fallback => event-specific SEO pages answering 차 가져갈까, 대중교통 탈까?",
-  "last_material_result": "Active live test unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Shadow Seoul Temporary Parking-Rule Decision Layer is KILLED after final disconfirmation: Seoul school holiday openings already publish school-level opening hours through education-office notices and 공유누리, and holiday free-parking information is distributed into major navigation surfaces. 2026 Lunar New Year reporting confirms 210 Seoul schools with school-specific operating times and navigation integration; 2025 Chuseok reporting likewise shows 225 schools with opening times available and map/navigation discovery. The proposed action layer therefore duplicates existing free discovery plus time-window detail, while materially better fallback/rule normalization would require multi-source freshness/manual joins. Reusable gene retained: temporary-event rule normalization only when a future source exposes a stable structured feed not already surfaced by navigation apps.",
-  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Shadow validation cost KRW0. Temporary parking-rule layer economics rejected: free official/navigation substitutes cover the core job and differentiated normalization would add maintenance without demonstrated monetizable demand.",
-  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow: next non-active run starts a fresh diverse Lane A recombination; do not resurrect generic holiday/free-parking discovery unless a materially new stable data/action primitive appears.",
-  "recommendation": "KEEP / LIVE TEST. KILL the temporary parking-rule shadow. Continue active test untouched until indexing checkpoint; use subsequent waiting runs for fresh shadow discovery.",
+  "last_material_result": "Active live test unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Fresh shadow discovery produced Seoul Event Exit Planner: official 2026 Seoul Fireworks guidance confirms a concrete post-event dispersal problem, with Yeouinaru Station scheduled to skip stops 19:00-22:00 and police explicitly directing crowds toward National Assembly/Yeouido/Saetgang/Daebang/Singil stations. Seoul also maintains a dense recurring festival calendar, creating a plausible repeatable event-trigger surface. This is not yet validated as a product: free news/blog guides already publish alternative stations, so the surviving wedge is a decision layer that turns event + departure time + destination direction into a ranked exit station/route, not another static guide.",
+  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Shadow: KRW0 validation cost; monetization hypothesis is SEO/event traffic -> ads/affiliate, with viability dependent on repeatable search demand and low-maintenance reuse across large events.",
+  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow: test Seoul Event Exit Planner against free substitutes and repeatability across at least 3 large Seoul events; KEEP only if destination-aware ranked exit guidance is materially absent and can be generated from stable official transit/control sources without manual live operations.",
+  "recommendation": "KEEP / LIVE TEST. Preserve Seoul Event Exit Planner as shadow ASSESS; validate substitute gap and repeatability next. Do not launch or modify the active experiment before its indexing checkpoint.",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
   "alert_reason": null,
-  "shadow_best": null
+  "shadow_best": {
+    "candidate": "Seoul Event Exit Planner",
+    "wedge": "event control notices + alternative-station dispersal guidance + destination direction => ranked post-event exit station/route instead of a static traffic guide",
+    "stage": "ASSESS",
+    "why_promising": "Large Seoul events create abrupt station closures/no-stop operations and official crowd dispersal to multiple alternatives; recurring festival inventory suggests reuse, while current free coverage appears mostly static rather than destination-aware.",
+    "next_validation": "Audit free substitutes and 3 large-event cases for destination-aware exit guidance, stable source availability, search intent and maintenance burden."
+  }
 }
