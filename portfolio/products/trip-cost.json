@@ -1,20 +1,15 @@
 {
   "product": "Korea Door-to-Door Trip Cost Comparator",
-  "updated_at": "2026-09-06T04:10:00+09:00",
+  "updated_at": "2026-09-06T05:15:00+09:00",
   "status": "LIVE / MONETIZE-OPTIMIZE",
-  "live_urls": [
-    "https://leejx12.github.io/fcc-preflight-test/trip-cost/",
-    "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-busan/",
-    "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-gangneung/",
-    "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-jeonju/"
-  ],
+  "live_urls": ["https://leejx12.github.io/fcc-preflight-test/trip-cost/", "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-busan/", "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-gangneung/", "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-jeonju/"],
   "wedge": "party size + editable car/toll/parking + editable rail/bus + first/last-mile costs => household-specific crossover point for drive vs rail/bus, not exact live routing",
-  "acquisition": "Route-specific long-tail SEO. Current scope is main calculator plus exactly 3 route pages; no route expansion until indexing/distribution evidence exists.",
-  "monetization": "Ads, travel/parking/rental affiliate, and portfolio cross-promotion. Direct payment is not required.",
-  "evidence": "Full static v1 launched at KRW0. No backend/login/paid API. All volatile values are user-editable. Product intent smoke test intentionally skipped because build cost and maintenance are negligible; real validation is indexing, organic usage and monetization.",
-  "economics": "Spend KRW0. Revenue KRW0/unproven. Target contribution KRW10,000-50,000/month if long-tail organic acquisition works.",
-  "constraints": "No paid SEO/ads/live routing API/custom domain without Founder approval. Keep route count at 3 until evidence supports expansion.",
-  "next_action": "Check indexing/discoverability after a reasonable crawl window; if indexed, prioritize query coverage, CTR, completion behavior and first monetization placement. If not indexed, apply one bounded free technical fix before content expansion.",
-  "recommendation": "OPERATE in Lane M. Optimize acquisition and monetization rather than re-validating willingness-to-use.",
+  "acquisition": "Route-specific long-tail SEO. Main page title/H1/description now explicitly target 자차 vs KTX vs 버스, 인원수 and 몇 명부터 차가 싼지 intent, and crawlable links connect the calculator to all 3 route pages. No route expansion yet.",
+  "monetization": "Ads, travel/parking/rental affiliate, and portfolio cross-promotion after acquisition evidence. Direct payment is not required.",
+  "evidence": "Fresh SERP check found a strong competing Seoul-Busan article explicitly answering that 3-4 person groups can make driving cheaper, confirming both intent and competition. The previous calculator page had a generic title and route links implemented only as query parameters, while its dedicated SEO pages were not crawlably linked from the main page. One bounded zero-spend acquisition optimization was applied: stronger search-intent title/H1/description, explanatory copy around the crossover mechanism, crawlable links to the 3 dedicated route pages, and a duplicate crossover-result DOM bug was fixed.",
+  "economics": "Spend KRW0. Revenue KRW0/unproven. Target contribution KRW10,000-50,000/month if long-tail organic acquisition works. This run used no paid infrastructure and added no maintenance-heavy data dependency.",
+  "constraints": "No paid SEO/ads/live routing API/custom domain without Founder approval. Keep route count at 3 until indexing/impression evidence supports expansion. Generic route comparison content has active SEO competition, so the decision-boundary calculator must remain the differentiator.",
+  "next_action": "After a reasonable crawl window, check discoverability/indexing of the main calculator and 3 route pages. If indexed, compare query coverage/CTR opportunity before adding routes or monetization placements; if not, apply one bounded technical indexing fix.",
+  "recommendation": "OPERATE. Hold route count at 3 and let the stronger crawlable/search-intent structure gather acquisition evidence before expanding or monetizing.",
   "founder_gate": null
 }
