@@ -24,7 +24,21 @@ jobs:
           mkdir -p portfolio/runtime/metrics
           read_count() {
             key="$1"
-            body="$(curl -fsS --retry 3 --retry-delay 2 "https://countapi.mileshilliard.com/api/v1/get/${key}")"
+            tmp="$(mktemp)"
+            code="$(curl -sS --retry 3 --retry-delay 2 -o "$tmp" -w '%{http_code}' "https://countapi.mileshilliard.com/api/v1/get/${key}" || true)"
+            if [ "$code" = "404" ]; then
+              rm -f "$tmp"
+              printf '0\n'
+              return 0
+            fi
+            if [[ ! "$code" =~ ^2 ]]; then
+              echo "CountAPI read failed for ${key}: HTTP ${code}" >&2
+              cat "$tmp" >&2 || true
+              rm -f "$tmp"
+              return 1
+            fi
+            body="$(cat "$tmp")"
+            rm -f "$tmp"
             python3 -c 'import json,sys; o=json.loads(sys.argv[1]); v=o.get("value", o.get("count")); assert v is not None; print(int(v))' "$body"
           }
           VIEW="$(read_count leejx12-amazon-sds-view-v2)"
