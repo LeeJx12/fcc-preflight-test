@@ -1,6 +1,9 @@
 name: Lane B CountAPI Bridge
 
 on:
+  push:
+    paths:
+      - '.github/workflows/lane-b-countapi-bridge.yml'
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
