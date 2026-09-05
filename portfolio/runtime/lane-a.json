@@ -1,22 +1,22 @@
 {
   "lane": "A",
-  "updated_at": "2026-09-05T15:55:11+09:00",
+  "updated_at": "2026-09-05T17:17:00+09:00",
   "candidate": "Seoul Event Drive-or-Transit Pages",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "event identity/date/time + official traffic/parking restrictions + parking support + transit fallback => event-specific SEO pages answering 차 가져갈까, 대중교통 탈까?",
-  "last_material_result": "Active live test unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Fresh shadow discovery produced Seoul Event Exit Planner: official 2026 Seoul Fireworks guidance confirms a concrete post-event dispersal problem, with Yeouinaru Station scheduled to skip stops 19:00-22:00 and police explicitly directing crowds toward National Assembly/Yeouido/Saetgang/Daebang/Singil stations. Seoul also maintains a dense recurring festival calendar, creating a plausible repeatable event-trigger surface. This is not yet validated as a product: free news/blog guides already publish alternative stations, so the surviving wedge is a decision layer that turns event + departure time + destination direction into a ranked exit station/route, not another static guide.",
-  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Shadow: KRW0 validation cost; monetization hypothesis is SEO/event traffic -> ads/affiliate, with viability dependent on repeatable search demand and low-maintenance reuse across large events.",
-  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow: test Seoul Event Exit Planner against free substitutes and repeatability across at least 3 large Seoul events; KEEP only if destination-aware ranked exit guidance is materially absent and can be generated from stable official transit/control sources without manual live operations.",
-  "recommendation": "KEEP / LIVE TEST. Preserve Seoul Event Exit Planner as shadow ASSESS; validate substitute gap and repeatability next. Do not launch or modify the active experiment before its indexing checkpoint.",
+  "last_material_result": "Active live test remains unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Shadow validation materially narrowed Seoul Event Exit Planner: for the 2026 Seoul Fireworks Festival, both official Seoul guidance and multiple fresh free guides already provide static alternative-station/traffic-control advice, so a generic 'which station should I use?' guide is not differentiated. However, the free substitutes inspected do not rank exit stations/routes by the user's destination direction and departure time. Repeatability evidence is mixed: large events such as Yeouido spring-flower periods also create road controls and transit adjustments, but not every event creates station no-stop/closure conditions. Shadow survives only as a high-crowd-event, destination-aware post-event dispersal calculator, not a general festival guide.",
+  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Shadow: KRW0 validation cost; generic static-guide monetization is unattractive because free substitutes are dense. Destination-aware calculator could monetize event SEO traffic via ads/affiliate only if search/distribution demand exists and generation can stay mostly automatic.",
+  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow: validate demand/search phrasing and source feasibility for a destination-aware exit calculator across >=2 additional high-crowd Seoul event types; KILL if users mainly accept static alternative-station guides or if route/control inputs require manual live operations.",
+  "recommendation": "KEEP / LIVE TEST. Keep Seoul Event Exit Planner as shadow ASSESS but narrow it to destination-aware high-crowd dispersal; generic static event-exit guide is disconfirmed by free substitutes. Do not launch or modify active experiment before indexing checkpoint.",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
   "alert_reason": null,
   "shadow_best": {
     "candidate": "Seoul Event Exit Planner",
-    "wedge": "event control notices + alternative-station dispersal guidance + destination direction => ranked post-event exit station/route instead of a static traffic guide",
+    "wedge": "high-crowd event control notices + departure time + destination direction => ranked post-event exit station/route, not static alternative-station advice",
     "stage": "ASSESS",
-    "why_promising": "Large Seoul events create abrupt station closures/no-stop operations and official crowd dispersal to multiple alternatives; recurring festival inventory suggests reuse, while current free coverage appears mostly static rather than destination-aware.",
-    "next_validation": "Audit free substitutes and 3 large-event cases for destination-aware exit guidance, stable source availability, search intent and maintenance burden."
+    "why_promising": "Fresh 2026 Fireworks coverage confirms severe dispersal friction and abundant static advice, but inspected substitutes stop at generic alternative stations rather than destination-aware ranking; reusable only for event classes with meaningful crowd-control changes.",
+    "next_validation": "Test destination-aware search/demand language and stable source inputs across at least two other high-crowd Seoul event types; reject if manual live operations are required or static guides satisfy intent."
   }
 }
