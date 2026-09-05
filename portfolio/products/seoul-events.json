@@ -1,18 +1,15 @@
 {
   "product": "Seoul Event Drive-or-Transit Pages",
-  "updated_at": "2026-09-06T04:10:00+09:00",
+  "updated_at": "2026-09-06T07:33:46+09:00",
   "status": "LIVE / MONETIZE-OPTIMIZE",
-  "live_urls": [
-    "https://leejx12.github.io/fcc-preflight-test/seoul-events/ddp-2026/",
-    "https://leejx12.github.io/fcc-preflight-test/seoul-events/seoripul-2026/"
-  ],
+  "live_urls": ["https://leejx12.github.io/fcc-preflight-test/seoul-events/ddp-2026/", "https://leejx12.github.io/fcc-preflight-test/seoul-events/seoripul-2026/"],
   "wedge": "event identity/date/time + official traffic/parking restrictions + parking support + transit fallback => event-specific SEO pages answering 차 가져갈까, 대중교통 탈까?",
-  "acquisition": "Event-title and venue-intent SEO; currently only 2 pages. Indexing/discoverability is the immediate bottleneck.",
+  "acquisition": "Event-title and venue-intent SEO; 2 live pages. At the 2026-09-06 07:10 checkpoint neither exact URL appeared in fresh site: searches, so crawlability is the immediate bottleneck. Root site now provides direct crawlable internal links to both pages.",
   "monetization": "Ads, parking/taxi/lodging/transport affiliate or lead-gen, and portfolio cross-promotion after meaningful traffic exists.",
-  "evidence": "Live at KRW0. Prior validation found real event transport pain; current product still needs indexing and organic acquisition proof. A technical indexing checkpoint was due 2026-09-06 07:10 KST; if undiscoverable, free crawlability fixes such as self-canonical and internal links were preselected.",
-  "economics": "Spend KRW0. Revenue KRW0/unproven. Low maintenance if route/event expansion is evidence-driven. Target is positive contribution with no paid acquisition until organic economics are proven.",
+  "evidence": "Fresh exact-URL site searches at 2026-09-06 07:33 KST returned no results for either event page. The repository root had still been an obsolete FCC seller smoke page with no consumer-product links. One bounded free crawlability fix replaced that root with a consumer-tools hub linking directly to both event pages and Trip Cost.",
+  "economics": "Spend KRW0. Revenue KRW0/unproven. The crawlability fix costs KRW0 and removes an obvious internal-discovery defect without adding per-event maintenance.",
   "constraints": "Do not expand event count before acquisition evidence. No paid SEO/ads/API without Founder approval. Avoid manual per-event maintenance unless traffic justifies it.",
-  "next_action": "At/after 2026-09-06 07:10 KST, check indexing/discoverability. If neither page is discoverable, apply one bounded free crawlability fix; if indexed, move to query/CTR/monetization optimization.",
-  "recommendation": "OPERATE in Lane M. Optimize distribution and monetization; do not return to incubation unless the core wedge itself is invalidated.",
+  "next_action": "Allow a crawl window, then re-check exact-URL discoverability. If indexed, move to event-title query/CTR and monetization evidence; if still absent, inspect page-level canonical/indexability before considering expansion.",
+  "recommendation": "OPERATE. Hold page count at 2 while the free crawlability fix propagates.",
   "founder_gate": null
 }
