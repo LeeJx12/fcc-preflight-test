@@ -1,22 +1,22 @@
 {
   "lane": "C",
-  "updated_at": "2026-09-05T13:26:07+09:00",
+  "updated_at": "2026-09-05T14:17:50+09:00",
   "candidate": "Korean SME Hire Subsidy Stack Preflight",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "company + planned hire facts around hiring => pre-hire/post-hire subsidy timing/deadline/risk checker with likely amount, conflict flags and official next actions; not final legal eligibility or filing service",
-  "last_material_result": "Active live test held constant. Waiting window was used for one shadow-discovery unit. A promising adjacent self-service B2B wedge emerged: Korean SME New-Hire 4-Insurance Deadline Preflight. Current 2026 sources show insurance-specific acquisition deadlines differ (health insurance 14 days vs pension/employment/industrial accident generally by the 15th of the following month), while current third-party guidance can flatten these into a misleading single 14-day rule. Existing search supply is dominated by calculators and explanatory articles rather than a hire-date-driven deadline/action preflight. This creates a potentially deterministic, lower-legal-risk public-rule checker, but competition/substitute and WTP/distribution validation are still incomplete.",
-  "economics": "Active: KRW0 spend; free timing/deadline-risk check -> paid source-linked action report/practitioner tool, pricing unvalidated. Shadow: KRW0 research; possible free deadline checker -> paid onboarding/action checklist or payroll-practitioner batch tool, monetization unvalidated.",
-  "next_checkpoint": "Active unchanged: at or after 2026-09-07 08:01 KST perform one search-discoverability check; hard window 2026-09-11 08:01 KST or 100 targeted visits. Shadow next: validate Korean SME New-Hire 4-Insurance Deadline Preflight against official 2026 filing rules, >=3 mainstream payroll/HR substitutes, and high-intent search/distribution evidence before retaining it as a survivor.",
-  "recommendation": "KEEP / LIVE TEST; continue shadow validation during waiting windows without modifying the active experiment",
+  "last_material_result": "Active live test held constant. Shadow validation advanced on Korean SME New-Hire 4-Insurance Deadline Preflight. Current 2026 search evidence consistently states insurance-specific acquisition deadlines differ: health insurance within 14 days, while pension/employment/industrial accident are generally due by the 15th of the following month. Substitute audit found a meaningful incumbent class: Jobis supports explicit 4-insurance acquisition-report requests and tax-agent filing, while flex publishes 4-insurance filing guidance and payroll/insurance data workflows. However, the audited surfaces did not establish an equivalent lightweight hire-date-driven proactive deadline/risk preflight before the user enters a payroll/tax-agent workflow. This narrows the wedge from 'help file 4-insurance' to 'pre-filing deadline/risk routing for very small employers'; substitute audit remains incomplete until >=3 mainstream products are checked.",
+  "economics": "Active: KRW0 spend; free timing/deadline-risk check -> paid source-linked action report/practitioner tool, pricing unvalidated. Shadow: KRW0 research; free pre-filing deadline/risk checker -> possible paid onboarding/action checklist or practitioner batch tool. Direct filing is already served by payroll/tax-agent incumbents, so monetization must sit before or beside filing rather than compete with filing itself.",
+  "next_checkpoint": "Active unchanged: at or after 2026-09-07 08:01 KST perform one search-discoverability check; hard window 2026-09-11 08:01 KST or 100 targeted visits. Shadow next: complete >=3 mainstream payroll/HR substitute audit, specifically testing whether any product proactively computes insurance-specific filing deadlines/risk from hire date and worker type; then test high-intent search/distribution evidence before retaining as a survivor.",
+  "recommendation": "KEEP / LIVE TEST; retain 4-insurance shadow as EARLY VALIDATE but narrow it to pre-filing deadline/risk routing, not filing automation",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
-  "alert_reason": "Routine shadow discovery only; no Founder gate, exceptional opportunity or blocker.",
+  "alert_reason": "Routine shadow validation only; no Founder gate, exceptional opportunity or blocker.",
   "shadow_best": {
     "candidate": "Korean SME New-Hire 4-Insurance Deadline Preflight",
-    "wedge": "hire date + worker type/hours + employer facts => insurance-specific acquisition deadlines, likely enrollment obligations, late-risk flags and official filing links; not payroll calculation or legal advice",
-    "stage": "DISCOVER / EARLY VALIDATE",
-    "why_promising": "2026 filing deadlines differ by insurance and current web guidance is inconsistent; existing results skew toward premium calculators/articles rather than a deterministic hire-date action checker, suggesting a narrow workflow gap with public rules and low fulfillment burden.",
-    "next_validation": "Verify official 2026 rules and edge cases, audit >=3 payroll/HR products for equivalent proactive deadline flags, then test high-intent search/distribution and paid-action-report WTP proxies."
+    "wedge": "hire date + worker type/hours + employer facts => insurance-specific acquisition deadlines, likely enrollment obligations, late-risk flags and official filing routes before payroll/tax-agent submission; not filing automation or legal advice",
+    "stage": "EARLY VALIDATE / SUBSTITUTE AUDIT",
+    "why_promising": "Insurance-specific deadlines are consistently differentiated in current guidance, while audited incumbents emphasize filing requests, payroll data or expert guidance. No equivalent lightweight proactive hire-date deadline/risk preflight was established in the audited surfaces, leaving a narrower pre-filing workflow gap.",
+    "next_validation": "Audit at least one more mainstream Korean payroll/HR product for proactive insurance-specific deadline flags, then validate high-intent search/distribution and WTP proxy for a pre-filing action checklist."
   }
 }
