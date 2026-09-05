@@ -1,15 +1,15 @@
 {
   "lane": "C",
-  "updated_at": "2026-09-05T11:34:00+09:00",
+  "updated_at": "2026-09-05T12:50:59+09:00",
   "candidate": "Korean SME Hire Subsidy Stack Preflight",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "company + planned hire facts around hiring => pre-hire/post-hire subsidy timing/deadline/risk checker with likely amount, conflict flags and official next actions; not final legal eligibility or filing service",
-  "last_material_result": "A bounded live-page contract audit found one concrete fidelity gap: the smoke-test promise and result copy said users would get official Work24 next actions/links, but the rendered result contained no clickable official link. Fresh verification confirmed Work24's official enterprise-support area currently exposes employer support categories including new-hire, youth job-leap, employment-promotion, parental/replacement-worker, work-life and continued-employment programs. Fixed only this approved smoke-test dimension by adding a direct official Work24 enterprise-support link to the result; no questionnaire, rule logic, scope, pricing, measurement or distribution change was made. Commit 893549b236ceb10bdb658fc4a1f663aab71f8ac3.",
+  "last_material_result": "Bounded search-information quality audit strengthened the source-linked timing-risk wedge without changing the live test: current 2026 Korean search results for 고용촉진장려금 materially conflict on timing, variously claiming pre-hire application, within 3 months after hire, and within 12 months after hire; other current results also warn that deadlines are commonly missed. This confirms that generic search summaries are unsafe as a deterministic answer source and supports the existing product contract of flagging timing risk and routing users to official Work24 verification rather than promising final eligibility. No page, rule logic, pricing, measurement or distribution mutation was made.",
   "economics": "KRW0 spend. Hypothesis unchanged: free 3-minute timing/deadline-risk check -> paid source-linked action report or practitioner tool. Pricing and contribution remain unvalidated.",
-  "next_checkpoint": "Hold page/test constant after the official-link fidelity fix. At or after 2026-09-07 08:01 KST perform one search-discoverability check for the live URL and primary high-intent query. Hard window remains through 2026-09-11 08:01 KST or 100 targeted visits. >=50 targeted views + >=3 paid intents + paid/view >=3% => BUILD candidate; >=100 targeted views with 0 paid intent => KILL paid-report form; <50 targeted views by Day 7 => distribution failure and one materially different free-channel retest.",
-  "recommendation": "KEEP / LIVE TEST — core promise fidelity repaired; no further mutation before Day-3 discoverability check",
+  "next_checkpoint": "Hold page/test constant. At or after 2026-09-07 08:01 KST perform one search-discoverability check for the live URL and primary high-intent query. Hard window remains through 2026-09-11 08:01 KST or 100 targeted visits. >=50 targeted views + >=3 paid intents + paid/view >=3% => BUILD candidate; >=100 targeted views with 0 paid intent => KILL paid-report form; <50 targeted views by Day 7 => distribution failure and one materially different free-channel retest.",
+  "recommendation": "KEEP / LIVE TEST — contradictory current search guidance reinforces source-linked timing-risk positioning; no mutation before Day-3 discoverability check",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
-  "alert_reason": "Routine smoke-test fidelity repair within already approved scope; no Founder gate, exceptional opportunity or blocker."
+  "alert_reason": "Routine validation evidence only; no Founder gate, exceptional opportunity or blocker."
 }
