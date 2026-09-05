@@ -1,0 +1,20 @@
+{
+  "product": "Korea Door-to-Door Trip Cost Comparator",
+  "updated_at": "2026-09-06T04:10:00+09:00",
+  "status": "LIVE / MONETIZE-OPTIMIZE",
+  "live_urls": [
+    "https://leejx12.github.io/fcc-preflight-test/trip-cost/",
+    "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-busan/",
+    "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-gangneung/",
+    "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-jeonju/"
+  ],
+  "wedge": "party size + editable car/toll/parking + editable rail/bus + first/last-mile costs => household-specific crossover point for drive vs rail/bus, not exact live routing",
+  "acquisition": "Route-specific long-tail SEO. Current scope is main calculator plus exactly 3 route pages; no route expansion until indexing/distribution evidence exists.",
+  "monetization": "Ads, travel/parking/rental affiliate, and portfolio cross-promotion. Direct payment is not required.",
+  "evidence": "Full static v1 launched at KRW0. No backend/login/paid API. All volatile values are user-editable. Product intent smoke test intentionally skipped because build cost and maintenance are negligible; real validation is indexing, organic usage and monetization.",
+  "economics": "Spend KRW0. Revenue KRW0/unproven. Target contribution KRW10,000-50,000/month if long-tail organic acquisition works.",
+  "constraints": "No paid SEO/ads/live routing API/custom domain without Founder approval. Keep route count at 3 until evidence supports expansion.",
+  "next_action": "Check indexing/discoverability after a reasonable crawl window; if indexed, prioritize query coverage, CTR, completion behavior and first monetization placement. If not indexed, apply one bounded free technical fix before content expansion.",
+  "recommendation": "OPERATE in Lane M. Optimize acquisition and monetization rather than re-validating willingness-to-use.",
+  "founder_gate": null
+}
