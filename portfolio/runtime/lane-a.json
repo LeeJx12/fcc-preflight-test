@@ -1,22 +1,16 @@
 {
   "lane": "A",
-  "updated_at": "2026-09-05T18:59:00+09:00",
+  "updated_at": "2026-09-05T19:53:00+09:00",
   "candidate": "Seoul Event Drive-or-Transit Pages",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "event identity/date/time + official traffic/parking restrictions + parking support + transit fallback => event-specific SEO pages answering 차 가져갈까, 대중교통 탈까?",
-  "last_material_result": "Active live test remains unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Shadow simultaneous-exit validation did not establish the required >=3 independent destination/exit-route pain signals for stadium/concert cases: accessible search evidence is dominated by generic venue transport/parking guidance rather than users needing destination-aware post-event route ranking. Fireworks-class dispersal remains the only previously evidenced strong archetype. This materially weakens Seoul Event Exit Planner as a repeatable standalone utility; keep it only as a low-confidence shadow until one final fireworks-class substitute/data check, then kill if the job is still satisfied by static official guidance.",
-  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Shadow: KRW0 validation cost. Standalone exit-planner economics weakened because repeatable cross-event demand was not established; likely maintenance/search cost exceeds value unless fireworks-class events expose a reusable high-intent gap.",
-  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow: run one final fireworks-class substitute/data check; KILL Seoul Event Exit Planner if official/static guidance already answers exit routing or reusable event-control inputs require manual live operations, then rotate to a different Lane A gene pool.",
-  "recommendation": "KEEP / LIVE TEST. Shadow Seoul Event Exit Planner is now LOW-CONFIDENCE ASSESS and should receive only one final fireworks-class check before KILL/rotate; do not build or launch it.",
+  "last_material_result": "Active live test remains unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Final fireworks-class substitute check disconfirmed Seoul Event Exit Planner as a standalone shadow: Seoul fireworks guidance already supplies the key static action set (Yeouinaru bypass/closure risk, alternative stations, added subway/bus service), while the remaining useful layer is real-time crowd-control status that would require live operational inputs. This fails the low-maintenance repeatable-utility bar, so the shadow is KILLed rather than built. Rotate next waiting run to a materially different Lane A gene pool.",
+  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Killed shadow: KRW0 validation cost; static guidance substitutes most value and a differentiated real-time layer would add maintenance/data-operability burden, so expected contribution/maintenance fitness is poor.",
+  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow: rotate to a different Lane A gene pool on the next non-active run; do not resurrect destination-aware event exit routing unchanged.",
+  "recommendation": "KEEP / LIVE TEST. KILL Seoul Event Exit Planner shadow; rotate shadow discovery. Do not build or launch a replacement without evidence and Founder gate.",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
   "alert_reason": null,
-  "shadow_best": {
-    "candidate": "Seoul Event Exit Planner",
-    "wedge": "simultaneous-exit event control notices + departure time + destination direction => ranked post-event exit station/route",
-    "stage": "ASSESS / LOW CONFIDENCE",
-    "why_promising": "Fireworks-class events may still create severe simultaneous dispersal friction, but stadium/concert search evidence did not establish repeated destination-aware exit-route pain; broad repeatability is now weak.",
-    "next_validation": "One final fireworks-class substitute/data check; kill and rotate if static official guidance suffices or reusable inputs require manual live operations."
-  }
+  "shadow_best": null
 }
