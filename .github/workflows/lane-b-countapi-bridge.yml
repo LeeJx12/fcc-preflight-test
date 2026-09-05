@@ -25,33 +25,13 @@ jobs:
           read_count() {
             key="$1"
             body="$(curl -fsS --retry 3 --retry-delay 2 "https://countapi.mileshilliard.com/api/v1/get/${key}")"
-            python3 - "$body" <<'PY'
-import json,sys
-obj=json.loads(sys.argv[1])
-for k in ('value','count'):
-    if k in obj:
-        print(int(obj[k])); raise SystemExit
-raise SystemExit('missing numeric counter field')
-PY
+            python3 -c 'import json,sys; o=json.loads(sys.argv[1]); v=o.get("value", o.get("count")); assert v is not None; print(int(v))' "$body"
           }
           VIEW="$(read_count leejx12-amazon-sds-view-v2)"
           FREE="$(read_count leejx12-amazon-sds-free-v2)"
           PAID="$(read_count leejx12-amazon-sds-paid-v2)"
           NOW="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          python3 - "$NOW" "$VIEW" "$FREE" "$PAID" <<'PY'
-import json,sys
-now,view,free,paid=sys.argv[1:]
-data={
-  'updated_at': now,
-  'source': 'countapi.mileshilliard.com read-only GET mirror',
-  'view': int(view),
-  'free': int(free),
-  'paid': int(paid)
-}
-with open('portfolio/runtime/metrics/lane-b-counts.json','w') as f:
-    json.dump(data,f,ensure_ascii=False,indent=2)
-    f.write('\n')
-PY
+          python3 -c 'import json,sys; now,view,free,paid=sys.argv[1:]; data={"updated_at":now,"source":"countapi.mileshilliard.com read-only GET mirror","view":int(view),"free":int(free),"paid":int(paid)}; open("portfolio/runtime/metrics/lane-b-counts.json","w").write(json.dumps(data,ensure_ascii=False,indent=2)+"\n")' "$NOW" "$VIEW" "$FREE" "$PAID"
       - name: Commit only when values changed
         shell: bash
         run: |
