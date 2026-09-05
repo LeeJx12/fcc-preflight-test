@@ -1,0 +1,18 @@
+{
+  "lane": "M",
+  "updated_at": "2026-09-06T04:10:00+09:00",
+  "current_focus": "Seoul Event Drive-or-Transit Pages",
+  "stage": "MONETIZE / OPTIMIZE",
+  "ranked_queue": [
+    "Seoul Event Drive-or-Transit Pages",
+    "Korea Door-to-Door Trip Cost Comparator"
+  ],
+  "last_material_result": "Lane M created as the dedicated post-launch monetization operator. Two live zero-spend products were handed off from incubation: Seoul Event Drive-or-Transit Pages and Korea Door-to-Door Trip Cost Comparator. Seoul Events ranks first only because it has a fixed near-term indexing checkpoint at 2026-09-06 07:10 KST; after that, priority must be re-ranked by marginal expected monthly profit per unit effort.",
+  "economics": "Portfolio live-product spend KRW0. Revenue currently unproven. Lane M objective is to maximize aggregate monthly net profit, not to preserve any product. Prefer free acquisition and monetization experiments; no paid/recurring spend without Founder approval.",
+  "next_checkpoint": "At/after 2026-09-06 07:10 KST, evaluate Seoul Events indexing/discoverability from its product state and perform one bounded free technical/acquisition action if needed. Otherwise choose the highest-EV monetization action across product states.",
+  "recommendation": "Operate live assets as a portfolio: prioritize the single action with highest expected marginal monthly profit / implementation-and-maintenance burden; SCALE, OPERATE, MUTATE or KILL based on evidence, ignoring sunk cost.",
+  "founder_gate": null,
+  "exceptional_opportunity": false,
+  "unavoidable_blocker": null,
+  "alert_reason": null
+}
