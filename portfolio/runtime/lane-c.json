@@ -1,13 +1,13 @@
 {
   "lane": "C",
-  "updated_at": "2026-09-05T15:16:51+09:00",
+  "updated_at": "2026-09-05T16:37:33+09:00",
   "candidate": "Korean SME Hire Subsidy Stack Preflight",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "company + planned hire facts around hiring => pre-hire/post-hire subsidy timing/deadline/risk checker with likely amount, conflict flags and official next actions; not final legal eligibility or filing service",
-  "last_material_result": "Active live test held constant. Shadow substitute audit for Korean SME New-Hire 4-Insurance Deadline Preflight now covers a third mainstream HR/payroll product class. Shiftee exposes a current 2026 4-insurance contribution calculator and HR/payroll guidance, while Newploy advertises payroll plus 4-insurance acquisition/loss filing workflows. Together with the previously audited Jobis/flex surfaces, incumbents strongly cover contribution calculation, payroll data, guidance and filing execution. The audited public surfaces still did not establish a lightweight proactive tool that takes hire date + worker type/hours and outputs insurance-specific acquisition deadlines and late-risk routing before payroll/tax-agent submission. This clears the planned >=3-product substitute audit but also confirms monetization cannot be generic 4-insurance calculation or filing; the shadow survives only as pre-filing deadline/risk routing.",
-  "economics": "Active: KRW0 spend; free timing/deadline-risk check -> paid source-linked action report/practitioner tool, pricing unvalidated. Shadow: KRW0 research; generic 4-insurance calculator/filing is crowded/free or bundled, so any monetization must attach to pre-filing deadline/risk action workflow or practitioner batch use rather than calculation/filing itself.",
-  "next_checkpoint": "Active unchanged: at or after 2026-09-07 08:01 KST perform one search-discoverability check; hard window 2026-09-11 08:01 KST or 100 targeted visits. Shadow substitute audit is complete enough for this stage; next bounded validation is high-intent search/distribution evidence for queries around new-hire 4-insurance acquisition deadlines, late filing and worker-type ambiguity, then a WTP proxy for a pre-filing action checklist.",
-  "recommendation": "KEEP / LIVE TEST; retain 4-insurance shadow as EARLY VALIDATE with substitute audit passed only for the narrow pre-filing deadline/risk wedge",
+  "last_material_result": "Active live test held constant. Shadow high-intent search validation for Korean SME New-Hire 4-Insurance Deadline Preflight found a dense current SERP around acquisition-report deadlines and late filing, including tax/accounting guides and practitioner content. More importantly, current results visibly conflict: stronger practitioner/accounting sources consistently separate health insurance at 14 days from National Pension/employment/industrial accident at next-month day 15, while other current pages incorrectly collapse all or most insurance into a 14-day rule. This establishes both reachable search intent and an information-quality/routing problem that a deterministic hire-date-driven preflight can solve. It does not yet establish willingness to pay, so the shadow remains validation-only.",
+  "economics": "Active: KRW0 spend; free timing/deadline-risk check -> paid source-linked action report/practitioner tool, pricing unvalidated. Shadow: KRW0 research; generic 4-insurance calculation/filing is crowded, but search-intent evidence supports a narrow deadline/risk routing utility. Monetization remains unproven and should attach to source-linked action checklist or practitioner batch workflow, not basic deadline lookup.",
+  "next_checkpoint": "Active unchanged: at or after 2026-09-07 08:01 KST perform one search-discoverability check; hard window 2026-09-11 08:01 KST or 100 targeted visits. Shadow has now passed substitute-gap plus initial high-intent search validation; next bounded validation is WTP/distribution proxy for a source-linked pre-filing action checklist, preferably practitioner/accounting/HR repeated-use evidence rather than more generic SERP collection.",
+  "recommendation": "KEEP / LIVE TEST; upgrade 4-insurance shadow to VALIDATE / WTP-PROXY NEXT because current search demand plus contradictory deadline guidance strengthens the narrow deterministic pre-filing wedge",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
@@ -15,8 +15,8 @@
   "shadow_best": {
     "candidate": "Korean SME New-Hire 4-Insurance Deadline Preflight",
     "wedge": "hire date + worker type/hours + employer facts => insurance-specific acquisition deadlines, likely enrollment obligations, late-risk flags and official filing routes before payroll/tax-agent submission; not filing automation or legal advice",
-    "stage": "EARLY VALIDATE / SEARCH-INTENT NEXT",
-    "why_promising": "A >=3-product substitute audit found strong incumbent coverage of insurance contribution calculation, payroll guidance and filing workflows but did not establish an equivalent lightweight proactive hire-date-driven deadline/risk preflight. The gap is narrow but still distinct.",
-    "next_validation": "Validate high-intent search/distribution evidence for acquisition-deadline, late-filing and worker-type ambiguity queries, then test a WTP proxy for a source-linked pre-filing action checklist."
+    "stage": "VALIDATE / WTP-PROXY NEXT",
+    "why_promising": "A >=3-product substitute audit found no equivalent proactive hire-date-driven preflight, and current high-intent search results show both dense deadline demand and contradictory guidance on 14-day versus next-month-15 rules. A deterministic source-linked router can reduce an observable information-quality failure without competing on payroll calculation or filing.",
+    "next_validation": "Find repeated-use practitioner/accounting/HR evidence or another credible WTP proxy for a source-linked pre-filing action checklist; avoid spending another run merely collecting generic deadline SERPs."
   }
 }
