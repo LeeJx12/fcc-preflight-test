@@ -1,16 +1,13 @@
 {
   "lane": "M",
-  "updated_at": "2026-09-06T04:10:00+09:00",
-  "current_focus": "Seoul Event Drive-or-Transit Pages",
+  "updated_at": "2026-09-06T05:15:00+09:00",
+  "current_focus": "Korea Door-to-Door Trip Cost Comparator",
   "stage": "MONETIZE / OPTIMIZE",
-  "ranked_queue": [
-    "Seoul Event Drive-or-Transit Pages",
-    "Korea Door-to-Door Trip Cost Comparator"
-  ],
-  "last_material_result": "Lane M created as the dedicated post-launch monetization operator. Two live zero-spend products were handed off from incubation: Seoul Event Drive-or-Transit Pages and Korea Door-to-Door Trip Cost Comparator. Seoul Events ranks first only because it has a fixed near-term indexing checkpoint at 2026-09-06 07:10 KST; after that, priority must be re-ranked by marginal expected monthly profit per unit effort.",
-  "economics": "Portfolio live-product spend KRW0. Revenue currently unproven. Lane M objective is to maximize aggregate monthly net profit, not to preserve any product. Prefer free acquisition and monetization experiments; no paid/recurring spend without Founder approval.",
-  "next_checkpoint": "At/after 2026-09-06 07:10 KST, evaluate Seoul Events indexing/discoverability from its product state and perform one bounded free technical/acquisition action if needed. Otherwise choose the highest-EV monetization action across product states.",
-  "recommendation": "Operate live assets as a portfolio: prioritize the single action with highest expected marginal monthly profit / implementation-and-maintenance burden; SCALE, OPERATE, MUTATE or KILL based on evidence, ignoring sunk cost.",
+  "ranked_queue": ["Seoul Event Drive-or-Transit Pages", "Korea Door-to-Door Trip Cost Comparator"],
+  "last_material_result": "Before the fixed Seoul Events 07:10 indexing checkpoint, one bounded higher-EV action was applied to Trip Cost. Fresh search evidence confirms explicit consumer intent around car/KTX/bus cost comparison and party-size crossover, but also active SEO competition. The main calculator was therefore strengthened at KRW0 with search-intent title/H1/description, explanatory crossover copy, crawlable internal links to all three dedicated route pages, and a duplicate crossover-result DOM bug fix. Route count remains capped at 3.",
+  "economics": "Portfolio spend KRW0; revenue unproven. Trip Cost target remains KRW10,000-50,000/month if long-tail organic acquisition works. No paid infrastructure or maintenance-heavy dependency added. Seoul Events remains queue rank 1 solely because its fixed 07:10 indexing checkpoint will preempt other work when due.",
+  "next_checkpoint": "2026-09-06 07:10 KST Seoul Events indexing/discoverability checkpoint. At/after it, inspect discoverability and apply exactly one bounded free technical crawlability fix if neither page is discoverable. Before then, no additional Trip Cost route expansion; allow crawl time after the acquisition edit.",
+  "recommendation": "OPERATE. Let Trip Cost's improved crawl/search structure settle; honor Seoul Events fixed checkpoint next. Re-rank afterward by marginal expected monthly contribution per effort rather than handoff order.",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
