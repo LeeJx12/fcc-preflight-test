@@ -1,22 +1,16 @@
 {
   "lane": "A",
-  "updated_at": "2026-09-05T21:56:00+09:00",
+  "updated_at": "2026-09-05T23:21:32+09:00",
   "candidate": "Seoul Event Drive-or-Transit Pages",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "event identity/date/time + official traffic/parking restrictions + parking support + transit fallback => event-specific SEO pages answering 차 가져갈까, 대중교통 탈까?",
-  "last_material_result": "Active live test remains unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Shadow ASSESS audited high-intent venue+parking SERPs across cultural halls, large arenas and stadiums (including Sejong/Lotte-type halls, KSPO/Jamsil arenas and Gocheok). The generic 'venue parking fallback' wedge is materially weaker than first assessed: current search results already contain numerous venue-specific parking/transport guides, nearby-parking comparisons, congestion warnings and even event-specific parking articles, so static parking+transit aggregation has high substitute saturation and weak differentiation. Pain is real, but the action gap is narrower than expected. Per mutation rule, do not KILL yet; next validation should test three materially different wedges: (1) show-time-aware leave-by/drive-vs-transit calculator, (2) post-show exit/egress-time decision support, (3) live congestion/parking-status-triggered fallback where official data exists.",
-  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Shadow: KRW0 validation; static venue-parking pages now look low-EV because SERPs are saturated and monetization is mostly pageview/parking-affiliate dependent. Dynamic/time-aware mutations may improve utility but increase freshness/data burden, so economics remain unproven.",
-  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow next validation: compare the three time/dynamic mutations against existing substitutes and available free data; downgrade/KILL the recurring-venue gene if none creates a repeatable action gap.",
-  "recommendation": "KEEP / LIVE TEST. Downgrade Seoul Performance Venue Parking Fallback as a static-page shadow; continue only through the required three differentiated mutations before deciding KILL.",
+  "last_material_result": "Active live test remains unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Shadow mutation audit completed for the downgraded recurring-venue parking gene. Mutation 1 (show-time-aware leave-by / drive-vs-transit calculator) has a real planning job but would depend on route-time inputs already dominated by map/navigation products and introduces API/freshness burden. Mutation 2 (post-show egress decision support) matches a real pain—recent 2026 concert guides explicitly warn that nearby parking exit can take 1–2 hours—but reliable venue-level exit-time data is not available as a low-maintenance public feed, making the output speculative/manual. Mutation 3 (live parking/congestion-triggered fallback) is technically feasible because Seoul exposes public parking status with ~5-minute refresh and TOPIS/open-data traffic feeds, but the core live parking job is already served directly by Seoul Parking/TMAP and would require an event-aware orchestration layer to differentiate. Across all three mutations, differentiation gain is insufficient relative to data/maintenance burden. KILL Seoul Performance Venue Parking Fallback shadow and retire the recurring-venue gene unchanged; retain only the general event-timing + official-restriction gene for future recombination.",
+  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Shadow recurring-venue family: KRW0 validation; terminally downgraded/KILL because static SERPs are saturated, live parking is already served by Seoul Parking/TMAP, leave-by requires route-time plumbing, and post-show egress lacks reliable low-maintenance data. Expected contribution does not justify build/maintenance burden.",
+  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow: recurring-venue parking candidate is terminal KILL; subsequent waiting-window runs should generate a materially different Lane A shadow rather than resurrecting venue parking unchanged.",
+  "recommendation": "KEEP / LIVE TEST for active. KILL Seoul Performance Venue Parking Fallback shadow after completing all three required mutations; no Founder action.",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
   "alert_reason": null,
-  "shadow_best": {
-    "candidate": "Seoul Performance Venue Parking Fallback",
-    "wedge": "show-time-aware venue access constraints + parking/transit fallback; static venue-parking aggregation is no longer sufficient",
-    "stage": "ASSESS / DOWNGRADED",
-    "why_promising": "Parking/congestion pain is repeatable, but static SERPs are saturated; only a time-aware or live decision layer may retain a meaningful wedge.",
-    "next_validation": "Test 3 mutations: leave-by drive-vs-transit calculator, post-show egress decision support, and live parking/congestion-triggered fallback using free data where available."
-  }
+  "shadow_best": null
 }
