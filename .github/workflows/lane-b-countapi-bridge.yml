@@ -1,0 +1,66 @@
+name: Lane B CountAPI Bridge
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lane-b-countapi-bridge
+  cancel-in-progress: true
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read CountAPI counters without incrementing
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p portfolio/runtime/metrics
+          read_count() {
+            key="$1"
+            body="$(curl -fsS --retry 3 --retry-delay 2 "https://countapi.mileshilliard.com/api/v1/get/${key}")"
+            python3 - "$body" <<'PY'
+import json,sys
+obj=json.loads(sys.argv[1])
+for k in ('value','count'):
+    if k in obj:
+        print(int(obj[k])); raise SystemExit
+raise SystemExit('missing numeric counter field')
+PY
+          }
+          VIEW="$(read_count leejx12-amazon-sds-view-v2)"
+          FREE="$(read_count leejx12-amazon-sds-free-v2)"
+          PAID="$(read_count leejx12-amazon-sds-paid-v2)"
+          NOW="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          python3 - "$NOW" "$VIEW" "$FREE" "$PAID" <<'PY'
+import json,sys
+now,view,free,paid=sys.argv[1:]
+data={
+  'updated_at': now,
+  'source': 'countapi.mileshilliard.com read-only GET mirror',
+  'view': int(view),
+  'free': int(free),
+  'paid': int(paid)
+}
+with open('portfolio/runtime/metrics/lane-b-counts.json','w') as f:
+    json.dump(data,f,ensure_ascii=False,indent=2)
+    f.write('\n')
+PY
+      - name: Commit only when values changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add portfolio/runtime/metrics/lane-b-counts.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Mirror Lane B CountAPI counters'
+          git push
