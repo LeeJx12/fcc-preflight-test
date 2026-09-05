@@ -1,15 +1,15 @@
 {
   "lane": "C",
-  "updated_at": "2026-09-05T09:50:38+09:00",
+  "updated_at": "2026-09-05T11:34:00+09:00",
   "candidate": "Korean SME Hire Subsidy Stack Preflight",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "company + planned hire facts around hiring => pre-hire/post-hire subsidy timing/deadline/risk checker with likely amount, conflict flags and official next actions; not final legal eligibility or filing service",
-  "last_material_result": "A fresh 2026 timing-rule cross-check strengthened the core rule architecture: the Ministry's 2026 employment-creation/stability grant notice explicitly separates programs requiring participation documents before program execution (including work-family environment improvement, regular-worker conversion and Work-Life +4.5) from requirement-based programs where the grant application can follow once conditions are met (including reduced-hours Work-Life support, childbirth/parental employment-stability support and employment-promotion grants). Separate current 2026 employment-promotion guidance still emphasizes a 12-month first-claim deadline and pre/post-hire disqualifying events. This confirms the product should classify timing risk program-by-program rather than use one universal 'apply before hiring' rule. No live-page mutation was needed because current copy is already non-absolute.",
+  "last_material_result": "A bounded live-page contract audit found one concrete fidelity gap: the smoke-test promise and result copy said users would get official Work24 next actions/links, but the rendered result contained no clickable official link. Fresh verification confirmed Work24's official enterprise-support area currently exposes employer support categories including new-hire, youth job-leap, employment-promotion, parental/replacement-worker, work-life and continued-employment programs. Fixed only this approved smoke-test dimension by adding a direct official Work24 enterprise-support link to the result; no questionnaire, rule logic, scope, pricing, measurement or distribution change was made. Commit 893549b236ceb10bdb658fc4a1f663aab71f8ac3.",
   "economics": "KRW0 spend. Hypothesis unchanged: free 3-minute timing/deadline-risk check -> paid source-linked action report or practitioner tool. Pricing and contribution remain unvalidated.",
-  "next_checkpoint": "Hold the page/test constant. At or after 2026-09-07 08:01 KST perform one search-discoverability check for the live URL and primary high-intent query. Hard window remains through 2026-09-11 08:01 KST or 100 targeted visits. >=50 targeted views + >=3 paid intents + paid/view >=3% => BUILD candidate; >=100 targeted views with 0 paid intent => KILL paid-report form; <50 targeted views by Day 7 => distribution failure and one materially different free-channel retest.",
-  "recommendation": "KEEP / LIVE TEST — rule segmentation validated; hold test constant until Day-3 discoverability check",
+  "next_checkpoint": "Hold page/test constant after the official-link fidelity fix. At or after 2026-09-07 08:01 KST perform one search-discoverability check for the live URL and primary high-intent query. Hard window remains through 2026-09-11 08:01 KST or 100 targeted visits. >=50 targeted views + >=3 paid intents + paid/view >=3% => BUILD candidate; >=100 targeted views with 0 paid intent => KILL paid-report form; <50 targeted views by Day 7 => distribution failure and one materially different free-channel retest.",
+  "recommendation": "KEEP / LIVE TEST — core promise fidelity repaired; no further mutation before Day-3 discoverability check",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
-  "alert_reason": "Routine rule-validation advancement; no Founder gate, exceptional opportunity or blocker."
+  "alert_reason": "Routine smoke-test fidelity repair within already approved scope; no Founder gate, exceptional opportunity or blocker."
 }
