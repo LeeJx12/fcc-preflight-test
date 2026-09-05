@@ -1,16 +1,22 @@
 {
   "lane": "A",
-  "updated_at": "2026-09-05T19:53:00+09:00",
+  "updated_at": "2026-09-05T20:56:00+09:00",
   "candidate": "Seoul Event Drive-or-Transit Pages",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "event identity/date/time + official traffic/parking restrictions + parking support + transit fallback => event-specific SEO pages answering 차 가져갈까, 대중교통 탈까?",
-  "last_material_result": "Active live test remains unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Final fireworks-class substitute check disconfirmed Seoul Event Exit Planner as a standalone shadow: Seoul fireworks guidance already supplies the key static action set (Yeouinaru bypass/closure risk, alternative stations, added subway/bus service), while the remaining useful layer is real-time crowd-control status that would require live operational inputs. This fails the low-maintenance repeatable-utility bar, so the shadow is KILLed rather than built. Rotate next waiting run to a materially different Lane A gene pool.",
-  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Killed shadow: KRW0 validation cost; static guidance substitutes most value and a differentiated real-time layer would add maintenance/data-operability burden, so expected contribution/maintenance fitness is poor.",
-  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow: rotate to a different Lane A gene pool on the next non-active run; do not resurrect destination-aware event exit routing unchanged.",
-  "recommendation": "KEEP / LIVE TEST. KILL Seoul Event Exit Planner shadow; rotate shadow discovery. Do not build or launch a replacement without evidence and Founder gate.",
+  "last_material_result": "Active live test remains unchanged before the fixed 2026-09-06 07:10 indexing checkpoint. Shadow discovery rotated to a recurring-venue gene pool and surfaced Seoul Performance Venue Parking Fallback as an ASSESS survivor: official venue guidance can contain high-intent constraints such as chronic/full parking and access-direction restrictions, while current search results are dominated by generic parking directories/maps. Proposed recombination is venue official access constraints + performance start time + nearby parking cost/availability metadata + transit fallback => a pre-departure decision page. This is materially different from one-off event road-control pages but still needs demand/WTP and substitute testing before promotion.",
+  "economics": "Active: KRW0 spend; organic traffic -> ads/affiliate/lead-gen hypothesis; contribution unproven. Shadow: KRW0 validation so far; plausible SEO/affiliate/ad monetization but WTP and traffic volume unproven; low build burden if limited to stable venue/access and public parking data, with freshness burden as primary risk.",
+  "next_checkpoint": "Active: 2026-09-06 07:10 KST indexing checkpoint. If neither page is discoverable, apply one bounded free technical-discovery fix: self-canonical on both pages plus a minimal crawlable internal-link hub; do not add new events. Shadow next validation: audit >=5 high-intent venue+parking SERPs and >=3 venue classes to test whether official pages/generic maps already satisfy the decision or whether start-time-specific fallback has a repeatable action gap.",
+  "recommendation": "KEEP / LIVE TEST. Preserve Seoul Performance Venue Parking Fallback as shadow ASSESS only; validate repeatable search/action gap before any Founder gate.",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
   "alert_reason": null,
-  "shadow_best": null
+  "shadow_best": {
+    "candidate": "Seoul Performance Venue Parking Fallback",
+    "wedge": "venue official parking/access constraints + performance start time + nearby parking options + transit fallback => pre-departure drive-or-transit decision",
+    "stage": "ASSESS",
+    "why_promising": "Official venue pages expose concrete parking/access pain while generic parking directories do not combine show-time urgency with fallback routing; potentially evergreen across recurring venues with low build cost.",
+    "next_validation": "Audit >=5 high-intent venue+parking SERPs and >=3 venue classes for demand, substitute saturation, freshness burden and monetization proxy."
+  }
 }
