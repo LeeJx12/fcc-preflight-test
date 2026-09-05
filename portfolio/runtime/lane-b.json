@@ -1,16 +1,22 @@
 {
   "lane": "B",
-  "updated_at": "2026-09-05T13:03:05+09:00",
+  "updated_at": "2026-09-05T14:46:58+09:00",
   "candidate": "Amazon SDS Submission Preflight",
   "stage": "LAUNCHED / VALIDATE LIVE",
   "wedge": "supplier/manufacturer SDS PDF + Amazon listing details + Amazon Dangerous Goods acceptance rules => Amazon-specific existing-SDS submission QA for chemical-based products before inventory commitment or resubmission; not SDS authoring, carrier troubleshooting, program enrollment, battery packaging review, or full hazmat approval",
-  "last_material_result": "Shadow validation tested an Amazon reimbursement/SAFE-T deadline-and-evidence workflow. The pain is real and newly sharper in 2026: Amazon cut US seller-fulfilled SAFE-T filing to 30 days from 2026-02-16 and the refund workflow gives sellers 4 calendar days before automated refund in many cases. However the wedge is already directly occupied by multiple reimbursement/audit products and an FBM-specific evidence product (ReturnSignal), while broader reimbursement products such as BeanHawk already advertise SAFE-T deadline monitoring. Shadow candidate was therefore KILLed for competition/substitute density rather than promoted. Active SDS live test remains unchanged pending Day-3 checkpoint.",
-  "economics": "Active: Free 1-SDS -> $15 existing-SDS preflight paid intent; contribution/WTP unproven; spend KRW0. Shadow SAFE-T workflow killed before build/spend; no economics change.",
-  "next_checkpoint": "2026-09-05 18:18 KST Day-3 safe CountAPI read. If <30 valid views, classify distribution weakness and continue searching for exactly one materially different FREE non-Reddit seller channel whose published rules explicitly permit a smoke-test/service link; do not use Helium 10 Seller Connect, SellersAskSellers, Amazon Seller Forums, or the previously excluded AmazonFBA Discord. If no compliant free non-Reddit surface can be verified and an account/admin permission is unavoidable, raise the exact Founder gate rather than violating community rules. Hard checkpoint 2026-09-09 18:18 KST or 100 valid views.",
-  "recommendation": "KEEP / LIVE TEST. Preserve chemical-product existing-SDS preflight. Continue shadow discovery during the waiting window; do not pursue generic FBA reimbursement or SAFE-T evidence/deadline tooling because current substitutes already cover the wedge.",
+  "last_material_result": "Active SDS live test remains unchanged pending Day-3 checkpoint. Shadow discovery surfaced EU marketplace GPSR catalog preflight: marketplace listing fields + seller catalog + GPSR economic-operator/manufacturer/safety-info requirements => preflight which listings are missing platform-visible compliance fields before EU suppression/deactivation. Official Etsy guidance confirms sellers may need Economic Operator/manufacturer and product-safety fields and can opt out of GPSR countries. Demand/monetization are credible because multiple paid Responsible Person/compliance services exist, but competition is already substantial, including free audits/checkers and full-service providers. Do not promote yet; validate materially narrower workflow mutations before deciding KILL versus survivor.",
+  "economics": "Active: Free 1-SDS -> $15 existing-SDS preflight paid intent; contribution/WTP unproven; spend KRW0. Shadow GPSR: paid compliance/RP market proves spend exists, but a preflight-only price and contribution are unproven; spend KRW0.",
+  "next_checkpoint": "2026-09-05 18:18 KST Day-3 safe CountAPI read. If <30 valid views, classify distribution weakness and continue searching for exactly one materially different FREE non-Reddit seller channel whose published rules explicitly permit a smoke-test/service link; do not use Helium 10 Seller Connect, SellersAskSellers, Amazon Seller Forums, or the previously excluded AmazonFBA Discord. Hard checkpoint 2026-09-09 18:18 KST or 100 valid views. Shadow GPSR next: test three narrower mutations before competition-based KILL, prioritizing catalog-field completeness/import QA rather than legal eligibility or Responsible Person service.",
+  "recommendation": "KEEP / LIVE TEST. Preserve chemical-product existing-SDS preflight. Continue shadow validation of GPSR only as a narrow marketplace catalog-field QA wedge; do not enter Responsible Person, technical-file, risk-assessment, or legal-advice fulfillment.",
   "founder_gate": null,
   "exceptional_opportunity": false,
   "unavoidable_blocker": null,
   "alert_reason": null,
-  "shadow_best": null
+  "shadow_best": {
+    "candidate": "EU Marketplace GPSR Catalog Field Preflight",
+    "wedge": "seller catalog + marketplace-visible manufacturer/economic-operator/safety fields + GPSR platform requirements => identify listing-level missing fields before EU suppression/deactivation, without providing legal eligibility or Responsible Person service",
+    "stage": "SHADOW / VALIDATE",
+    "why_promising": "Official marketplace UX creates concrete listing-field work and paid compliance services demonstrate seller spend; however free audits and full-service incumbents make generic GPSR compliance crowded, so only a narrower catalog QA/import workflow may survive.",
+    "next_validation": "Test >=3 materially different narrow mutations against existing free audits and marketplace-native tools; validate seller pain, accessible catalog inputs, and a self-service distribution/WTP path before promotion."
+  }
 }
