@@ -3,7 +3,8 @@
   "last_seen": {
     "lane_a_updated_at": "2026-09-06T08:01:55+09:00",
     "lane_b_updated_at": "2026-09-06T08:38:12+09:00",
-    "lane_c_updated_at": "2026-09-06T09:01:00+09:00"
+    "lane_c_updated_at": "2026-09-06T09:01:00+09:00",
+    "lane_m_updated_at": null
   },
-  "note": "Daily briefing reader compares lane runtime files and reports only material changes and Founder decisions."
+  "note": "Daily briefing reader compares Lane A/B/C incubation state plus Lane M post-launch monetization/optimization state and reports only material changes and Founder decisions."
 }
