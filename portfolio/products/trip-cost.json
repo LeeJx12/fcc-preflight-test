@@ -1,6 +1,6 @@
 {
-  "product": "Korea Door-to-Door Trip Cost Comparator",
-  "updated_at": "2026-09-06T09:26:54+09:00",
+  "product": "MB-002 Korea Door-to-Door Trip Cost Comparator",
+  "updated_at": "2026-09-06T11:15:00+09:00",
   "status": "LIVE / MONETIZE-OPTIMIZE",
   "live_urls": ["https://leejx12.github.io/fcc-preflight-test/trip-cost/", "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-busan/", "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-gangneung/", "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-jeonju/"],
   "wedge": "party size + editable car/toll/parking + editable rail/bus + first/last-mile costs => household-specific crossover point for drive vs rail/bus, not exact live routing",
