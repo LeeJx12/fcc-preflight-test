@@ -1,0 +1,30 @@
+{
+  "work_order": "WO-YYYY-NNNN",
+  "product": "MB-### Product Name",
+  "repo": "LeeJx12/mb-###-slug",
+  "type": "BOOTSTRAP|BUILD|IMPROVE|FIX|EXPERIMENT|DEPLOY",
+  "objective": "One bounded outcome",
+  "reason": "Material evidence and expected value",
+  "constraints": [
+    "KRW 0 additional recurring cost unless Founder approved",
+    "Preserve current working functionality",
+    "No material privacy/legal/platform expansion without Founder Gate"
+  ],
+  "acceptance": [
+    "Concrete measurable completion criterion"
+  ],
+  "priority": 0.0,
+  "status": "READY|RUNNING|BLOCKED|DONE|CANCELLED",
+  "created_at": "ISO-8601",
+  "started_at": null,
+  "completed_at": null,
+  "result": {
+    "pr": null,
+    "commit": null,
+    "tests": null,
+    "deployment": null,
+    "evidence": [],
+    "blocker": null,
+    "founder_gate": null
+  }
+}
