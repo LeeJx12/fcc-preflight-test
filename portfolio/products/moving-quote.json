@@ -1,15 +1,15 @@
 {
   "product": "MB-004 Korea Moving Quote Normalizer",
-  "updated_at": "2026-09-06T11:15:00+09:00",
-  "status": "LIVE / HANDOFF TO LANE M",
+  "updated_at": "2026-09-06T12:07:00+09:00",
+  "status": "LIVE / MONETIZE",
   "live_urls": ["https://leejx12.github.io/fcc-preflight-test/moving-quote/"],
   "wedge": "2-3 already-received moving quotes + normalized scope/status rows => compare entered all-in totals and surface unspecified additional-cost risk without mover lead-gen",
-  "acquisition": "Narrow informational intent around 이사 견적 비교, 이사 추가금, 이사 견적 포함 항목; sitemap included. Post-launch acquisition optimization belongs to Lane M.",
-  "monetization": "Unproven; candidate channels are ads, relevant affiliate/cross-promotion or non-manual lead-gen only if economics support it. Lane B does not optimize post-launch.",
-  "evidence": "Full static mobile-first v1 launched after Founder approval. Supports 3 quotes, 11 normalized rows, included/separate/unspecified/not-needed states, editable amounts, normalized totals, missing-scope warnings and browser-local persistence. No OCR, AI, backend, account, API, phone collection or market-price guarantee.",
-  "economics": "Build and hosting spend KRW0 on existing GitHub Pages; recurring infrastructure cost KRW0; revenue unproven.",
+  "acquisition": "Exact site/path is not yet visible in fresh public search. Competitive results around 이사 견적 비교 / 이사 추가금 are dominated by lead-gen regional pages and informational checklists. The live page now has stronger crawlable intent copy covering 포장이사 견적 2~3곳 비교, 추가금, 누락 항목, 포함 범위 and why cheapest headline total can mislead, while preserving the interactive normalizer as the differentiated answer.",
+  "monetization": "Unproven; candidate channels remain ads, relevant affiliate/cross-promotion or non-manual lead-gen only if acquisition economics support them. No monetization placement added before organic evidence.",
+  "evidence": "Full static v1 remains live with 3-quote normalization, 11 rows, missing-scope warnings and local-only persistence. One bounded acquisition action added SEO-aligned title/description plus crawlable explanatory FAQ copy after fresh search showed competing pages explicitly target comparison and additional-charge intent but generally route users to lead forms rather than normalize already-received quotes.",
+  "economics": "Build, hosting and this acquisition optimization spend KRW0; recurring infrastructure cost KRW0; revenue unproven.",
   "constraints": "Do not claim market fair price; unspecified items are warnings rather than invented allowances. No paid API/backend/manual fulfillment. New spend or material legal/privacy risk requires Founder Gate.",
-  "next_action": "Lane M should verify live/indexability first, then rank acquisition and monetization work against other live products by expected marginal monthly contribution.",
-  "recommendation": "OPERATE / MONETIZE in Lane M; ignore sunk cost and KILL if acquisition-to-contribution economics remain weak.",
+  "next_action": "Allow crawl propagation, then re-check exact-path indexing/discoverability and whether the page appears for narrow already-received-quote/additional-charge intent before adding pages or monetization placements.",
+  "recommendation": "OPERATE / WAIT FOR CRAWL EVIDENCE after the zero-spend acquisition-copy improvement; do not expand content footprint yet.",
   "founder_gate": null
 }
