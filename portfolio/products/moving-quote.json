@@ -1,0 +1,15 @@
+{
+  "product": "Korea Moving Quote Normalizer",
+  "updated_at": "2026-09-06T09:44:00+09:00",
+  "status": "LIVE / HANDOFF TO LANE M",
+  "live_urls": ["https://leejx12.github.io/fcc-preflight-test/moving-quote/"],
+  "wedge": "2-3 already-received moving quotes + normalized scope/status rows => compare entered all-in totals and surface unspecified additional-cost risk without mover lead-gen",
+  "acquisition": "Narrow informational intent around 이사 견적 비교, 이사 추가금, 이사 견적 포함 항목; sitemap included. Post-launch acquisition optimization belongs to Lane M.",
+  "monetization": "Unproven; candidate channels are ads, relevant affiliate/cross-promotion or non-manual lead-gen only if economics support it. Lane B does not optimize post-launch.",
+  "evidence": "Full static mobile-first v1 launched after Founder approval. Supports 3 quotes, 11 normalized rows, included/separate/unspecified/not-needed states, editable amounts, normalized totals, missing-scope warnings and browser-local persistence. No OCR, AI, backend, account, API, phone collection or market-price guarantee.",
+  "economics": "Build and hosting spend KRW0 on existing GitHub Pages; recurring infrastructure cost KRW0; revenue unproven.",
+  "constraints": "Do not claim market fair price; unspecified items are warnings rather than invented allowances. No paid API/backend/manual fulfillment. New spend or material legal/privacy risk requires Founder Gate.",
+  "next_action": "Lane M should verify live/indexability first, then rank acquisition and monetization work against other live products by expected marginal monthly contribution.",
+  "recommendation": "OPERATE / MONETIZE in Lane M; ignore sunk cost and KILL if acquisition-to-contribution economics remain weak.",
+  "founder_gate": null
+}
