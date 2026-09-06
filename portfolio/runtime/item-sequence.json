@@ -1,5 +1,5 @@
 {
-  "next_number": 8,
+  "next_number": 9,
   "format": "MB-%03d",
   "allocation_rule": "Assign once when a candidate is first written as a serious canonical lane candidate. Preserve the same ID through mutation, BUILD, LAUNCH, Lane M handoff, operation and KILL. Raw internal brainstorms do not consume IDs.",
   "items": [
@@ -9,6 +9,7 @@
     {"id":"MB-004","name":"Korea Moving Quote Normalizer"},
     {"id":"MB-005","name":"Seoul Tomorrow Commute Disruption Digest"},
     {"id":"MB-006","name":"Seoul Discount-Aware Parking Picker"},
-    {"id":"MB-007","name":"Korea Appliance Repair-vs-Replace Calculator"}
+    {"id":"MB-007","name":"Korea Appliance Repair-vs-Replace Calculator"},
+    {"id":"MB-008","name":"Incheon Airport Door-to-Gate Transfer Picker"}
   ]
 }
