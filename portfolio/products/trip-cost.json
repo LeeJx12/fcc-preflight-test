@@ -1,15 +1,15 @@
 {
   "product": "Korea Door-to-Door Trip Cost Comparator",
-  "updated_at": "2026-09-06T08:11:58+09:00",
+  "updated_at": "2026-09-06T09:26:54+09:00",
   "status": "LIVE / MONETIZE-OPTIMIZE",
   "live_urls": ["https://leejx12.github.io/fcc-preflight-test/trip-cost/", "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-busan/", "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-gangneung/", "https://leejx12.github.io/fcc-preflight-test/trip-cost/seoul-jeonju/"],
   "wedge": "party size + editable car/toll/parking + editable rail/bus + first/last-mile costs => household-specific crossover point for drive vs rail/bus, not exact live routing",
-  "acquisition": "Route-specific long-tail SEO plus a time-bounded 2026 추석 귀성비용 angle. On 2026-09-06 exact-URL/site search still returned no Trip Cost result, so no new URL was created. Instead the existing canonical calculator was optimized in place for 추석 귀성비용 / 자차 vs KTX vs 버스 / 인원수별 비교 while retaining its evergreen calculator function.",
+  "acquisition": "Route-specific long-tail SEO plus a time-bounded 2026 추석 귀성비용 angle on the existing canonical calculator. Exact-URL/site search remained empty at 2026-09-06 09:26 KST, so the current bottleneck remains crawl/index propagation rather than content expansion.",
   "monetization": "Ads, travel/parking/rental affiliate, and portfolio cross-promotion after acquisition evidence. Direct payment is not required.",
-  "evidence": "Fresh discoverability check still found no indexed Trip Cost URL. Previous fresh SERP work found active 2026 추석 cost-comparison content and explicit 3-4 person crossover discussion, so the highest-EV bounded action during the crawl wait was to align the existing canonical page title, description, H1, explanatory copy and CTA with that seasonal intent rather than create another unindexed page. The calculator remains editable and usable for non-holiday trips.",
-  "economics": "Spend KRW0; revenue KRW0/unproven. The in-place seasonal acquisition optimization has zero recurring cost and avoids adding maintenance or indexation surface. Target contribution remains KRW10,000-50,000/month if organic acquisition works; the 2026-09-24~26 holiday window makes early September discoverability disproportionately valuable.",
+  "evidence": "One bounded page-level indexability audit found no obvious technical block: /trip-cost/ has a self-referencing HTTPS canonical, robots.txt allows all crawling and points to the sitemap, and sitemap.xml includes the calculator plus all three route URLs with 2026-09-06 lastmod. Fresh exact-URL/site search still returned no result. Therefore no additional crawl/index fix was stacked this run; propagation time is the rational next step.",
+  "economics": "Spend KRW0; revenue KRW0/unproven. No new maintenance surface or paid dependency was added. Target contribution remains KRW10,000-50,000/month if organic acquisition works; early-September indexing remains valuable for the 2026-09-24~26 holiday window.",
   "constraints": "No paid SEO/ads/live routing API/custom domain without Founder approval. Keep route count at 3 until indexing/impression evidence supports expansion. Do not create a separate 추석 landing page until the current crawl/indexability issue clears.",
-  "next_action": "Allow the root-hub crawlability fix and updated canonical calculator metadata to propagate. On the next suitable checkpoint, re-check exact-URL discoverability; if still absent, inspect page-level indexability/canonical rather than expanding content. If indexed, test query coverage/CTR and monetization placement readiness.",
-  "recommendation": "OPERATE. Seasonal intent is now captured on the existing canonical calculator at zero cost; do not add URLs until crawl evidence appears.",
+  "next_action": "Wait for crawl propagation rather than stack fixes. At the next suitable checkpoint, re-check exact-URL discoverability. If still absent after a materially longer window, inspect rendered HTTP response/indexability externally before changing content; if indexed, move immediately to query/CTR and monetization placement readiness.",
+  "recommendation": "OPERATE / HOLD. Technical indexability basics are already present; avoid churn while the recent internal-link and metadata changes propagate.",
   "founder_gate": null
 }
