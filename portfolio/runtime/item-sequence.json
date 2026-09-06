@@ -1,0 +1,14 @@
+{
+  "next_number": 8,
+  "format": "MB-%03d",
+  "allocation_rule": "Assign once when a candidate is first written as a serious canonical lane candidate. Preserve the same ID through mutation, BUILD, LAUNCH, Lane M handoff, operation and KILL. Raw internal brainstorms do not consume IDs.",
+  "items": [
+    {"id":"MB-001","name":"Seoul Event Drive-or-Transit Pages"},
+    {"id":"MB-002","name":"Korea Door-to-Door Trip Cost Comparator"},
+    {"id":"MB-003","name":"Seoul Venue Encore Cutoff Pages"},
+    {"id":"MB-004","name":"Korea Moving Quote Normalizer"},
+    {"id":"MB-005","name":"Seoul Tomorrow Commute Disruption Digest"},
+    {"id":"MB-006","name":"Seoul Discount-Aware Parking Picker"},
+    {"id":"MB-007","name":"Korea Appliance Repair-vs-Replace Calculator"}
+  ]
+}
