@@ -1,6 +1,6 @@
 {
-  "product": "Korea Moving Quote Normalizer",
-  "updated_at": "2026-09-06T09:44:00+09:00",
+  "product": "MB-004 Korea Moving Quote Normalizer",
+  "updated_at": "2026-09-06T11:15:00+09:00",
   "status": "LIVE / HANDOFF TO LANE M",
   "live_urls": ["https://leejx12.github.io/fcc-preflight-test/moving-quote/"],
   "wedge": "2-3 already-received moving quotes + normalized scope/status rows => compare entered all-in totals and surface unspecified additional-cost risk without mover lead-gen",
