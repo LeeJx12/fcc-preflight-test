@@ -1,0 +1,21 @@
+{
+  "id": "MB-###",
+  "product": "MB-### Product Name",
+  "updated_at": "ISO-8601",
+  "status": "VALIDATE|BUILD_APPROVED|BUILD|LIVE|OPERATE|OPTIMIZE|SCALE|KILLED",
+  "repo": null,
+  "live_urls": [],
+  "owner_lane": "A|B|C|M",
+  "executor": "codex",
+  "wedge": "A + B (+ C) => new wedge",
+  "acquisition": {},
+  "monetization": {},
+  "evidence": [],
+  "economics": {},
+  "constraints": [],
+  "next_objective": null,
+  "next_review_at": null,
+  "priority": 0.0,
+  "recommendation": "DISCOVER|VALIDATE|BUILD|OPERATE|OPTIMIZE|SCALE|KILL",
+  "founder_gate": null
+}
